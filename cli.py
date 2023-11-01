@@ -38,7 +38,7 @@ def switch_player(current_player):
 if __name__ == '__main__':
     current_player = "X"
     # get an empty board
-    board=get_empty_board()
+    board = get_empty_board()
     # print the board
     winner = None
 
