@@ -63,7 +63,7 @@ if __name__ == '__main__':
         current_player = switch_player(current_player)
     
     print_board(board)
-    print
+    print(f"Winner is {current_player}")
 
   # check for winner
   # check if game is draw

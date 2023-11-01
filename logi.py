@@ -54,6 +54,7 @@ def check_winner_board(board):
     # [2,2].extend([1,1]) -->[2,2,1,1]
     # [2,2].append([1,1]) -->[2,2,[1,1]]
 
+"""
     flat_board = []
     for row in board:
         flat_board.extend(row)
@@ -69,3 +70,4 @@ if __name__ == '__main__':
         ["X","O","X"]
     ]
     print(check_winner_board(board))
+"""
